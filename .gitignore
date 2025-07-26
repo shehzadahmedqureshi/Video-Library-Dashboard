@@ -1,0 +1,36 @@
+# -------- Global ignores --------
+.env
+.env.*  # .env.local, .env.production, etc.
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+.DS_Store
+*.swp
+
+# -------- Node / Frontend --------
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/.env
+frontend/.env.*  # if you're using .env.local or .env.production
+frontend/.eslintcache
+frontend/.parcel-cache/
+frontend/yarn.lock
+frontend/npm-debug.log*
+
+# -------- Python / Backend --------
+backend/venv/
+backend/.env
+backend/.env.*
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/*.sqlite3
+backend/.coverage
+backend/instance/
+backend/*.egg-info/
+
+# -------- VSCode and Mac system files --------
+.vscode/
+.DS_Store
