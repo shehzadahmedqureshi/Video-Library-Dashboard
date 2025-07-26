@@ -13,7 +13,7 @@ frontend/node_modules/
 frontend/.next/
 frontend/.turbo/
 frontend/.env
-frontend/.env.*  # if you're using .env.local or .env.production
+frontend/env.*  # if you're using .env.local or .env.production
 frontend/.eslintcache
 frontend/.parcel-cache/
 frontend/yarn.lock

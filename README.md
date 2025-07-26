@@ -31,6 +31,15 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+### 🛠️ Setting Up PostgreSQL on Neon
+
+Neon provides a free tier with generous limits — perfect for quick full-stack projects like this one.
+
+1. Go to [Neon](https://neon.tech/) and sign up.
+2. Create a new project.
+3. Click on **"Connection Details"** → Copy the `postgresql://...` URL.
+4. In your backend:
+
 Create a `.env` file inside the backend directory and add your database URL:
 
 ```env
@@ -71,9 +80,15 @@ npm run dev
 - **Testing:** Only a few representative tests included due to time constraints.
 - **Accessibility:** Labeled inputs and basic ARIA attributes included.
 
+**Database Hosting:** Chose Neon for PostgreSQL hosting due to its:
+
+- Generous free tier
+- Easy setup (no Docker or local Postgres needed)
+- Serverless, developer-friendly experience
+
 ---
 
-## Future Improvements
+## 🚀 Future Improvements
 
 **Backend:**
 
